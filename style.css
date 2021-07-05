@@ -1,0 +1,108 @@
+body{
+ font-family: 'Roboto', sans-serif;
+ 
+}
+
+h1 {
+ font-size: 50px;
+ color: rgb(102, 100, 100);
+}
+h2{
+ color: gray;
+ 
+}
+p{
+ color: gray;
+}
+section{
+ display: flex;
+}
+/* .top-banner{
+ background-image: url(images/7.png);
+} */
+
+.half-width-top{
+ width: 50%;
+ padding-left: 5%;
+ padding-right: 5%;
+ padding-top: 5%;
+ margin-bottom: 70px;
+ 
+
+}
+.half-width-top img{
+ width: 100%;
+}
+
+#AboutMe-img{
+ width: 50%;
+}
+
+.orange{
+color: orange;
+}
+
+.link-btn{
+text-decoration: none;
+background-image: linear-gradient(orange, tomato);
+padding: 10px 40px;
+color: white;
+border-radius: 20px;
+font-weight: 400;
+
+}
+.button{
+ margin-top: 50px;
+}
+
+.about-me{
+background-image: url(images/7.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.half-width-about{
+ width: 50%;
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 5%;
+ margin-bottom: 70px;
+ 
+}
+.recipies{
+ margin-top: 70px;
+}
+.center{
+ text-align: center;
+ padding-left: 25%;
+ padding-right: 25%;
+}
+
+.item{
+ margin-top: 50px;
+margin-left: 6%;
+margin-right: 5%;
+padding: 10px;
+width: 250px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 10px 10px 40px rgb(158, 149, 149);
+}
+
+.item img{
+ width: 230px;
+ padding: 10px;
+}
+
+.footer{
+ margin-top: 70px;
+ text-align: center;
+ background-color: black;
+ padding-top: 15px;
+ padding-bottom: 70px;
+}
+
+.footer p{
+ color: white;
+}
+/* =============== */
+
