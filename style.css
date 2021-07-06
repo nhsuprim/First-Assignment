@@ -17,9 +17,6 @@ p{
 section{
  display: flex;
 }
-/* .top-banner{
- background-image: url(images/7.png);
-} */
 
 .half-width-top{
  width: 50%;
@@ -35,7 +32,7 @@ section{
 }
 
 #AboutMe-img{
- width: 50%;
+ width: 60%;
 }
 
 .orange{
@@ -59,15 +56,16 @@ font-weight: 400;
 background-image: url(images/7.png);
 background-size: cover;
 background-repeat: no-repeat;
+padding-left: 200px;
+padding-right: 200px;
 }
 .half-width-about{
- width: 50%;
- padding-left: 10%;
- padding-right: 10%;
- padding-top: 5%;
+ width: 500px;
+ padding-top: 10%;
  margin-bottom: 70px;
  
 }
+
 .recipies{
  margin-top: 70px;
 }
@@ -77,12 +75,18 @@ background-repeat: no-repeat;
  padding-right: 25%;
 }
 
+.recipies-item{
+margin-left: 12%;
+margin-right: 10%;
+}
+
 .item{
  margin-top: 50px;
-margin-left: 6%;
-margin-right: 5%;
+margin-left: 2%;
+margin-right: 2%;
 padding: 10px;
 width: 250px;
+text-align: justify;
 background-color: white;
 border-radius: 20px;
 box-shadow: 10px 10px 40px rgb(158, 149, 149);
@@ -91,6 +95,10 @@ box-shadow: 10px 10px 40px rgb(158, 149, 149);
 .item img{
  width: 230px;
  padding: 10px;
+}
+
+#black{
+ color: black;
 }
 
 .footer{
@@ -104,5 +112,36 @@ box-shadow: 10px 10px 40px rgb(158, 149, 149);
 .footer p{
  color: white;
 }
-/* =============== */
+
+.contact-us{
+ margin-top: 70px;
+ width: 100%;
+ margin-left: 150px;
+ margin-right: 150px;
+ 
+}
+
+.contact-us h1 {
+text-align: center
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-button{
+ background-image: linear-gradient(orange, tomato);
+ width: 15%;
+ text-decoration: none;
+ margin-top: 30px;
+ padding: 10px;
+ border-radius: 10px;
+ 
+}
 
